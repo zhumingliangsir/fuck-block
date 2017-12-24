@@ -1,0 +1,13 @@
+#gamebox{
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='#FFFFFF',Direction=0,Strength=5)
+    progid:DXImageTransform.Microsoft.Shadow(color='#FFFFFF',Direction=90,Strength=5)
+    progid:DXImageTransform.Microsoft.Shadow(color='#FFFFFF',Direction=180,Strength=5)
+    progid:DXImageTransform.Microsoft.Shadow(color='#FFFFFF',Direction=270,Strength=5)
+}
+
+#info .logo{
+    background:#faf;
+}
+.ball{
+    background:#faf;
+}

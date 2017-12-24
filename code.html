@@ -1,0 +1,60 @@
+<!doctype>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="code.css">
+        <!--[if IE]>
+            <style>
+                #info{
+                    background:rgba(224,254,250,0.5);
+                    -pie-background:rgba(224,254,250,0.5);
+                    box-shadow:none;
+                    left:-100px;
+                }
+                #info .logo{
+                    left:10px;
+                    margin-left:0;
+                }
+                #info b{
+                    margin-left:60px;
+                }
+                #gamebox{
+                    box-shadow:none;
+                    behavior: url(PIE.htc);
+                }
+            </style>
+        <![endif]-->
+	</head>
+	<body>
+		<div id="main">
+			<div id="info">
+				<b class="logo">B<i>A</i>LL BREAK!</b>
+				<b>SCORE:<span class="score"></span></b>
+				<b>COUNT:<span class="count"></span></b>
+				<b>LEVEL:<span class="level"></span></b>
+			</div>
+			<div id="gamebox">
+			</div>
+			<div id="gameover">
+				<div class="ct">
+					<span>G A M E&nbsp;O V E R</span>
+					<p>等级为：<span class="level"></span></p>
+					<p>最终得分为：<span class="score"></span></p>
+					<a href="#">重新开始(S)</a>
+				</div>
+			</div>
+			<div id="gamePause">
+				<div class="ct">
+					<span>PAUSE</span>
+					<p>等级为：<span class="level"></span></p>
+					<p>得分为：<span class="score"></span></p>
+					<p>重新开始(S)</p>
+					<p>继续(C)</p>
+				</div>
+			</div>
+		</div>
+		<script src="jquery-1.11.3.js"></script>
+		<script src="code.js"></script>
+	</body>
+</html>

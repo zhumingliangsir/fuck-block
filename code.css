@@ -1,0 +1,166 @@
+body{
+	margin:0;
+	padding:0;
+	background:#E8FFE8;
+	background:url(bg.png) center center;
+	background-size:100%;
+}
+i{
+	font-style:normal;
+}
+#main{
+	width:1000px;
+	min-height:600px;
+	margin:10px auto;
+}
+#gamebox{
+	width:900px;
+	height:500px;
+	padding:0;
+	border:10px solid #fff;
+	margin:auto;
+	border-radius:5px;
+    position:relative;
+	box-shadow:5px 5px 5px #fff;
+}
+#info{
+	margin:0 auto;
+	padding-left:200px;
+	box-sizing:border-box;
+	height:100px;
+	width:1000px;
+	line-height:70px;
+	position:relative;
+	background:rgba(224,254,250,0.5);
+	border-radius:10px;
+	box-shadow:6px 6px 10px #FFF;
+    behavior: url(PIE.htc);
+}
+#info:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+#info b{
+	color:#FFF;
+	font-family:"Arail";
+	margin:10px 20px;
+	font-size:30px;
+	display:block;
+	width:200px;
+	float:left;
+	color:#F9FB14;
+	text-shadow:2px 2px 2px #666;
+    behavior: url(PIE.htc);
+}
+#info .logo{
+	width:150px;
+	height:150px;
+	border-radius:75px;
+	font-size:40px;
+	transform:rotate(-20deg);
+	-webkit-transform:rotate(-20deg);
+	-o-transform:rotate(-20deg);
+	-moz-transform:rotate(-20deg);
+	-ms-transform:rotate(-20deg);
+    behavior: url(PIE.htc);
+	background-image:radial-gradient(transparent,#faf);
+	background-image:-webkit-radial-gradient(transparent,#faf);
+	background-image:-o-radial-gradient(transparent,#faf);
+	background-image:-moz-radial-gradient(transparent,#faf);
+	box-sizing:border-box;
+	padding:20px 18px 0;
+	line-height:40px;
+	position:absolute;
+	left:-60px;
+	top:-20px;
+	z-index:1000;
+}
+
+#info .logo i{
+	font-size:60px;
+	padding:0 10px 20px;
+	text-shadow:5px 5px 5px #FFF;
+}
+/*砖块样式*/
+.code{
+	width:75px;
+	height:30px;
+	position:absolute;
+	background:blue;
+	box-shadow:5px 5px 5px #555;
+	border-radius:3px;
+    behavior: url(PIE.htc);
+}
+/*板的样式*/
+.racket{
+	width:75px;
+	height:10px;
+	border-radius:10px;
+	background:#FFD700;
+	position:absolute;
+    behavior: url(PIE.htc);
+}
+/*球的样式*/
+.ball{
+	width:10px;
+	height:10px;
+	border-radius:50%;
+    behavior: url(PIE.htc);
+	background-image:radial-gradient(transparent,#000);
+	background-image:-webkit-radial-gradient(transparent,#000);
+	background-image:-o-radial-gradient(transparent,#000);
+	background-image:-moz-radial-gradient(transparent,#000);
+    +background:#000;
+	position:absolute;
+
+}
+
+#gameover,#gamePause{
+	display:none;
+	position:absolute;
+	top:0;left:0;bottom:0;right:0;
+	background:rgba(0,0,0,.6);
+	color:#ffff00;
+	font-weight: bold;
+	font-size: 2.5rem;
+	z-index:1000;
+	text-align:center;
+	padding-top:100px;
+}
+#gameover p,#gamePause p{
+	font-size:2rem;
+	margin:30px 0;
+}
+#gameover a{
+	margin-top:20px;
+	padding:10px 20px;
+	background:#FF4000;
+	font-size:2rem;
+	color:#fff;
+	border-radius:10px;
+	border:1px solid #fff;
+	text-decoration: none;
+	font-weight: normal;
+    behavior: url(PIE.htc);
+}
+
+#gameover .ct,#gamePause .ct{
+	font-size:4rem;
+	width:700px;
+	height:400px;
+	background:rgba(255,255,255,0.6);
+	border-radius:10px;
+	margin:0px auto;
+	border:5px solid #FFF;
+	padding-top:80px;
+    behavior: url(PIE.htc);
+}
+#gameover .ct>span,#gamePause .ct>span{
+	text-shadow:0 0 10px #FF4000;
+    behavior: url(PIE.htc);
+}
+#gameover .ct p,#gamePause .ct p{
+	text-shadow:0 0 10px #FFF;
+    behavior: url(PIE.htc);
+}
